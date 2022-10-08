@@ -7,7 +7,7 @@
 /*header_where_logo_is*/
 header {
   background-color:rgba(20,30,13, .7);
-}
+  }
 .logo {
   width: 80px;
 }
@@ -86,7 +86,7 @@ footer p a:hover {
   text-decoration: underline;
 }  
 
-/*buttons_on_message_and_footer*/
+/*book_and_join_buttons_thru_out_*/
 .book, .join {
   background-color: #241a66;
   color: white;
@@ -94,5 +94,5 @@ footer p a:hover {
 }
 .book:hover, .join:hover {
   background-color: #1584b7;
-  color: #241a66;
+  color: white;
 }
