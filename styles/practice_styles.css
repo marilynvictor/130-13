@@ -1,0 +1,23 @@
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+  .bottom {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 18px;
+    text-align: center;
+  }
+  .top {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 18px;
+    text-align: center;
+  }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Inter+Tight:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
 /*content_entire_body*/
 #content {
   max-width: 1600px;
@@ -6,16 +9,21 @@
 
 /*header_where_logo_is*/
 header {
-  background-color:rgba(20,30,13, .7);
+  background-color:#1584b7;
   }
 .logo {
   width: 80px;
+}
+.logo_link {
+  padding-top: 5px;
 }
 nav a {
   color: #f0ee6a;
   text-align: center;
   text-decoration: none;
-}
+  padding: 35px
+    } 
+
 nav a:hover {
   background-color: #241a66 ;
   color: white;
@@ -29,48 +37,83 @@ nav a:hover {
   text-align: center;
 }
 .home-title {
-  color: #f0ee6a;
+  color: #1584b7;
+  font-family: "Chelsea Market", 'Trebuchet MS', 'sans-serif';
+  font-size: 2em;
+  margin-top: 10px; 
 }
+
+
+
 h4 {
-  color: #f0ee6a;
+  color: #1584b7;
 }
 .button-box {
   text-align: center;
-}
+ }
+
 /*body*/
 body {
-  background-color: #1584b7 ;
+  background-color: white;
+  font-family: "Fuzzy Bubbles", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
+
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 /*main*/
-main {
+main section {
   text-align: center;
+}
+h2 {
+  margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #241a66;
+}
+main section img {
+  box-sizing: border-box;
 }
 
 /*background_below_rapids_pic*/
 #background {
   height: 725px;
-  background-color: #ca7316;
+  background-color: #241a66;
+  margin-bottom: 100px;
 }
 
 /*message_on_bottom_above_footer*/
 .msg {
   background-color: #ca7316;
+  line-height: 1.5em;
+  padding: 35px;
+  margin-top: 150px;
 }
 .msg h2 {
   color: #241a66;
+  font-family: "Chelsea Market", 'Trebuchet MS', 'Georgia';
 }
 .msg p {
   color: #241a66;
-}
+  font-size: .8em;
+  padding-bottom: 15px;
+ }
+
 
 /*footer*/
 footer {
   background-color: #ca7316;
-  color: black;
+  color: #241a66;
+  padding: 25px 50px;
+  margin-top: 200px;
 }    
 footer a {
   color: #241a66;
@@ -91,8 +134,15 @@ footer p a:hover {
   background-color: #241a66;
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover {
   background-color: #1584b7;
   color: white;
+}
+footer .social img {
+  padding-top: 15px;
 }
