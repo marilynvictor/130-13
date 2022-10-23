@@ -1,0 +1,28 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px
+}
+#background {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 80px;
+    width: 30;
+    background-color: #abaaad;
+    margin-bottom: 10px;
+}  
+
+.cherries {
+    grid-column: 2/3;
+    grid-row: 2;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    z-index: 1;
+}
+.pic {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 80px;
+    z-index: -1 ;
+  }
