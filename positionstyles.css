@@ -156,31 +156,37 @@ grid-template-rows: 1fr 1fr;
   grid-row: 3/4;
 } 
 /* Activity 5 styles */ 
-.content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+.content5 {
+display: inline-block;
+ 
 }
 .red5 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
+  z-index: 1;
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  float: left;
+  z-index: 1;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 150px; 
+  width: 600px; 
+  height: 400px; 
   background-color: gold; 
+   
 
 } 
 .blue5 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
+  margin-top: -50px;
 } 
 /* Activity 6 styles */ 
  /* This is the parent of the activity 6 boxes. */
