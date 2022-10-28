@@ -9,6 +9,8 @@
 
 /*header_where_logo_is*/
 header {
+  display: grid;
+  grid-template-columns: 150px auto;
   background-color:#1584b7;
   }
 .logo {
@@ -17,6 +19,12 @@ header {
 .logo_link {
   padding-top: 5px;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 nav a {
   color: #f0ee6a;
   text-align: center;
